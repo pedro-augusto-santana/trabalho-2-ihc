@@ -71,7 +71,7 @@ function validateEmail() {
   }
 }
 
-function validadePwd() {
+function validatePwd() {
   const pwd = document.getElementById("password").value;
   if (pwd.search(/\d/) == -1) {
     errorDiv.classList.remove("hidden");
