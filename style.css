@@ -34,3 +34,6 @@
   border-color: var(--light);
 }
 
+.disabled {
+  background-color: #e57982;
+}
