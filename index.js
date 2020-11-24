@@ -57,7 +57,7 @@ function validateUsrname() {
 
 function validateEmail() {
   const email = document.getElementById("email").value;
-  var re = /\S+@\S+\.\S+/;
+  let re = /\S+@\S+\.\S+/;
   if (!re.test(email)) {
     errorDiv.classList.remove("hidden");
     errorDiv.innerHTML = "<p class=\"text-lg pl-4\">O email não é valido</p>";
