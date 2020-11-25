@@ -3,9 +3,8 @@
 /* Professor: Thiago Jabur Bitar */
 
 /* 
-
 Como descrito no trabalho, a validação deve ser feita utilizando JavaScript,
-dessa forma utilizamos os recursor da linguagem para validar o input da
+dessa forma utilizamos os recursos da linguagem para validar o input da
 seguinte maneira:
   nome de usuário:
     - deve sempre ser maior ou igual a 5 caracteres
@@ -16,11 +15,6 @@ seguinte maneira:
     - o email deve conter @ e . ( validação de email seguindo o padrão
     RFC 5322 é extremamente complexo e foge do escopo da matéria)
 
-Para manter a simplicidade utilizamos apenas 1 arquivo que gerencia todas as
-operações, obviamente, em uma aplicação real, existiria uma comunicação com o 
-backend e todas as validações seriam feitas no server-side, mas como o escopo
-da matéria é de fato a interatividade do usuário, isso não é necessário e a validação
-client-side é mais que suficiente
 */ 
 
 /* validação de registro */
@@ -108,7 +102,3 @@ function confirmPwd() {
   }
 }
 
-
-/* login */
-
-/* armazenamento de credenciais */

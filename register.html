@@ -28,23 +28,23 @@ body {
         <p class="text-gray-600 font-bold text-xs">Crie uma conta !</p>
       </section>
       <section class="mt-10" id="register">
-        <form class="flex flex-col" action="#" autocomplete="off" id="register">
+        <form class="flex flex-col" action="./home.html" autocomplete="off" id="register">
           <div class="mb-6 pt-3 rounded bg-gray-200">
             <label for="email" class="block text-gray-700 text-sm font-bold mb-2 ml-3">Email</label>
-            <input type="text" id="email" class="bg-gray-200 rounded w-full text-lg text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-primary pl-3 focus:border-red-500 transition duration-400" oninput="validateEmail()">
+            <input required type="text" id="email" class="bg-gray-200 rounded w-full text-lg text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-primary pl-3 focus:border-red-500 transition duration-400" oninput="validateEmail()">
           </div>
           <div class="mb-6 pt-3 rounded bg-gray-200">
             <label for="username" class="block text-gray-700 text-sm font-bold mb-2 ml-3">Nome de usuário</label>
-            <input type="text" id="username" class="bg-gray-200 rounded w-full text-lg text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-primary pl-3 focus:border-red-500 transition duration-400" oninput="validateUsrname()">
+            <input required type="text" id="username" class="bg-gray-200 rounded w-full text-lg text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-primary pl-3 focus:border-red-500 transition duration-400" oninput="validateUsrname()">
           </div>
 
           <div class="mb-6 pt-3 rounded bg-gray-200">
             <label for="password" class="block text-gray-700 text-sm font-bold mb-2 ml-3">Senha</label>
-            <input type="password" id="password" class="bg-gray-200 rounded w-full text-lg text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-primary pl-3 focus:border-red-500 transition duration-400" oninput="validatePwd()">
+            <input required type="password" id="password" class="bg-gray-200 rounded w-full text-lg text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-primary pl-3 focus:border-red-500 transition duration-400" oninput="validatePwd()">
           </div>
           <div class="mb-6 pt-3 rounded bg-gray-200">
             <label for="password" class="block text-gray-700 text-sm font-bold mb-2 ml-3">Confirme sua senha</label>
-            <input type="password" id="pwd-confirm" class="bg-gray-200 rounded w-full text-lg text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-primary pl-3 focus:border-red-500 transition duration-400" oninput="confirmPwd()">
+            <input required type="password" id="pwd-confirm" class="bg-gray-200 rounded w-full text-lg text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-primary pl-3 focus:border-red-500 transition duration-400" oninput="confirmPwd()">
           </div>
           <button id="submit-btn" class=" rounded bg-primary shadow-sm py-3 light font-semibold hover:shadow-xl transition duration-500 focus:shadow-xl" type="submit" >Registrar</button>
         </form>
