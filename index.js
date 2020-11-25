@@ -1,8 +1,11 @@
-/* Trabalho de IHC */
-/* Alunos: Pedro Augusto, Isaque Gherardi */
-/* Professor: Thiago Jabur Bitar */
-
 /* 
+======================================================================================
+Trabalho de IHC
+Alunos: Pedro Augusto, Isaque Gherardi
+Professor: Thiago Jabur Bitar
+======================================================================================
+
+======================================================================================
 Como descrito no trabalho, a validação deve ser feita utilizando JavaScript,
 dessa forma utilizamos os recursos da linguagem para validar o input da
 seguinte maneira:
@@ -15,7 +18,30 @@ seguinte maneira:
     - o email deve conter @ e . ( validação de email seguindo o padrão
     RFC 5322 é extremamente complexo e foge do escopo da matéria)
 
-*/ 
+As tecnologias utilizadas foram:
+  Html5 - Linguagem de marcação padrão da web
+
+  Css3 - Apenas para a definição de classes customizadas, a estilização
+    de fato foi feita utilizando biblioteca
+
+  tailwindcss - Biblioteca de estilização, fornece, ao contrário de outras como
+    Bootstrap ou Foundation, customizações modulares de baixo nível, ou seja,
+    classes responsáveis por cor, posicionamento, tamanho, permitindo um nível
+    de customização mais granular do que de bibliotecas de nível mais alto
+
+  JavaScript (vanilla) - JavaScript padrão, não foi utilizado nenhum recurso externo
+
+  Figma - O Figma é um software de prototipação, que foi utilizado para criar tanto a 
+    logo quanto iterar rapidamente sobre a interface do site
+
+  GitHub - O GitHub foi utilizado para gerenciar o código do site e para utilizar sua
+    funcionalidade de "pages", onde um repositório pode ser hospedado em um site, sendo
+    muito útil para esse tipo de aplicação
+
+  Editores de texto - Neovim (Pedro), Visual Studio Code (Isaque)
+======================================================================================
+*/
+
 
 /* validação de registro */
 

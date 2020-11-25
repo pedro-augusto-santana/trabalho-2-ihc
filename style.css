@@ -24,15 +24,6 @@
 .bg-light{
   background-color: var(--light);
 }
-.border-primary {
-  border-color: var(--primary);
-}
-.border-secondary {
-  border-color: var(--secondary);
-}
-.border-light {
-  border-color: var(--light);
-}
 
 .disabled {
   background-color: #e57982;
